@@ -1,0 +1,215 @@
+/*   
+Theme Name: Josh's Wordpress Site
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
+.navbar{
+font-size:0.875em;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in photoshop)divided by 16 which equals 0.875em*/
+
+}
+a{
+color: #fff;
+}
+
+a:hover{
+color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+    
+background-color:transparent;
+}
+
+
+.navbar-nav li a:hover {
+    
+background-color:transparent;
+}
+
+
+.orange{
+color:darkorange;    
+}
+
+.navbar{
+   font-size:0.875em;
+   margin-bottom:0px;
+}
+
+.navbar-brand{
+    font-size:2.5;
+    font-weight: bold;
+    letter-spacing: -3px;
+    
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+body{
+    background-color:#3f3948;  
+    font-size:16px;
+font-family: arial,sans-serif;
+
+}
+
+
+
+.herobg{
+    height: 700px;
+    background: url("images/hero.jpg") no-repeat center center;
+    background-size: cover;
+    max-width: 1412px;
+}
+
+.herobg h1{
+   float:right; /* float the text to the right*/
+    color:#ffff;/* make the text white*/
+    width:341px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:7.125em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    letter-spacing: -10px;/* fix the letter-spacing*/
+    font-weight: 800;/* make the text bold*/
+    line-height:75%;/* decrease the line height*/
+    margin-top:140px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:right;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.maincontainer{
+    background-color: #fff;
+
+}
+
+.excerpts a{
+    color:#889898;
+}
+.excerpts img{
+    display:block;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.maintext h2{
+    color:darkorange;
+    font-family: raleway,sans-serif;
+    font-size:1.3em;
+   
+}
+
+.maintext h3{
+    font-family: raleway,sans-serif;
+    font-weight:800;
+   
+}
+
+
+.sidebar{
+    
+}
+
+.aside_elements{
+    
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.aside_elements h2{
+    
+     color:darkorange;
+    font-family: raleway,sans-serif;
+    font-size:1.5em;
+   
+}
+
+.sidebar img{
+    display:block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+
+.footerbg{
+   
+    height: 150px;
+    background:url("images/footer-bg.jpg") no-repeat center center;
+    background-size:cover;
+    max-width:1412px;
+}
+
+.footerbg p{
+   
+    color:#fff;
+    margin:10px;
+    
+}
+
+
+.leftfoot img{
+    margin:10px;
+    
+}
+
+.rightfoot p{
+    text-align:right;
+    
+    
+   
+}
+
+.rightfoot img{
+    float:right;
+    margin:10px;
+    
+    
+   
+}
+
+@media only screen and (max-width: 992px){
+    .leftfoot{
+        
+        width:50%;
+        padding-left:0px;
+        padding-right:0px;
+        float:left;
+    }
+    
+    .rightfoot{
+        
+        width:50%;
+        padding-left:0px;
+        padding-right:0px;
+        float:right;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    .herobg{
+        height:500px;
+    }
+    
+    .herobg h1{
+        float:none;
+        width:221px;
+        font-size:5.125em;
+        letter-spacing:-10px;
+        margin-top:220px;
+        line-height:80%;
+        letter-spacing:-9px;
+    }
+    
+}
